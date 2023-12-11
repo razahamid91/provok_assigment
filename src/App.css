@@ -1,7 +1,29 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
 
-.AppContent{
+.AppContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  padding: 2rem;
+}
+
+.App-header {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .AppContainer {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .AppContainer {
+    padding: 0.5rem;
+  }
 }
